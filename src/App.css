@@ -1,0 +1,35 @@
+
+.App-header {
+  background-color: #d6d5d8; 
+  min-height: 100vh;
+  display: flat;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  font-size: 20px; 
+  color: white;
+}
+
+.App-header button {
+  background: linear-gradient(45deg, #292929 0%, #706f6f 100%); 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px; 
+  font-size: 9px; 
+  font-weight: bold; 
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s; 
+}
+
+.App-header button:hover {
+  background: linear-gradient(45deg, #706f6f 0%, #292929 100%); 
+  transform: translateY(-3px); 
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 6px 12px rgba(0, 0, 0, 0.15); 
+}
+
+.App-header button:active {
+  transform: translateY(2px); 
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15), 0 3px 6px rgba(0, 0, 0, 0.1);
+}
